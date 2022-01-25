@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-family: 'Oxygen', sans-serif;
+    
+}
+h1,h2,h3,h4,h5{
+    text-transform: capitalize;
+    color: rgb(12, 216, 243);
+
+}
+.btn{
+    border-radius: 5px;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 4px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 2rem;
+    text-transform: capitalize;
+}
+.container{
+    margin: 0 auto;  
+    text-align: center;
+    width: 90%;
+    
+}
+@media screen and (min-width: 280px) {
+    .container{
+        width: 100%;
+    
+    }
+    .nav-center{
+        gap: 20px;
+    }
+}
+
+@media screen and (min-width: 700px){
+    .container{
+        width: 35%;
+    }
+    .nav-center{
+        gap: 200px;
+    }
+}
+.container h2{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 40px;
+    margin-top: 8rem;
+}
+.color{
+    color: rgb(12, 216, 243);
+    
+}
+.nav-center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links{
+    list-style: none;
+    display: inline-flex;
+    gap: 30px;
+    font-size: 20px;
+    
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(12, 216, 243);
+
+}
+nav{
+    background-color: white;
+    padding: 2rem;
+}
+
+.btn-hero{
+    transition: 0.3s;
+}
+.btn-hero:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: 700;
+}
